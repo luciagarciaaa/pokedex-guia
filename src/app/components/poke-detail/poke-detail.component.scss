@@ -1,0 +1,33 @@
+@import "../../../assets/styles/variables.scss";
+
+.card{
+ width: 300px;
+ margin: auto;
+ margin-top: 20px;
+ background-color: $red;
+}
+
+.header-image{
+    background-size: cover;
+}
+/** Con esto le daos estilos a la carta*/
+.mat-card-header{
+    background-color: $white;
+    padding-top: 10px;
+    border-radius: 10px;
+}
+
+/** Por ejemplo aqui ponermos la primera letra del nombre en mayuscula*/
+.mat-card-title{
+    text-transform: uppercase ;
+    color: black;
+}
+
+.mat-card-header.subtitle{
+    color: $black;
+}
+
+.mat-chip{
+    background-color: black !important;
+    
+}

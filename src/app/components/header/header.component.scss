@@ -1,0 +1,10 @@
+/** Importamos los estilos*/
+@import "../../../assets/styles/variables.scss";
+
+/** Con esto le damos estilo a nustra barra principal donde se encuentra el inicio*/
+.mat-toolbar{
+    background-color:black;
+}
+img:hover{
+    cursor: pointer;
+}
